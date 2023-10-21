@@ -1,0 +1,258 @@
+html, body{
+    margin:0;
+    height:100%;
+    background-color: white;
+    color: white;
+    font-family: 'Roboto', 'D2Coding', sans-serif;
+}
+
+header{
+    height: 60px;
+    background-color: white;
+    color : #343a40;
+}
+
+header>nav{
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 12px 20px;
+}
+
+header>label{
+    font-size:32px;
+    margin-top:10px;
+}
+
+header>nav>ul{
+    float: right;
+    margin-top : 10px;
+}
+header>nav>ul>li{
+    float: left;
+    list-style:none;
+    margin-left:10px;
+}
+header>nav>ul>li>a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#6c757d;
+}
+header>nav>ul>li>a.active{
+    color: #343a40;
+    border-bottom: 5px solid #343a40;
+}
+
+main>#txtt{
+    max-width:720px;
+    margin: 5 auto;
+    text-align: center;
+    display: table;
+    margin-bottom: 500px;
+    margin-top : 300px;
+    opacity: 0;
+    transition: all 2s;
+}
+main>#aboutchat{
+    margin-top:600px;
+    margin-left:200px;
+    margin-right:200px; 
+    margin-bottom:1000px;   
+    display:grid;
+    grid-template-columns: 300px 1fr;
+    height:250px;
+    background-color: transparent;
+    border-radius:10px;
+    opacity: 0;
+    transition: all 2s;
+}
+#aboutimage{
+    margin-top:500px;
+    margin-bottom: 500px;
+    margin-left:200px;
+    margin-right:200px;    
+    display:grid;
+    grid-template-columns: 300px 1fr;
+    height:250px;
+    background-color: transparent;
+    border-radius:10px;
+    opacity: 0;
+    transition: all 2s;
+}
+.name1{
+    padding : 30px 70px;
+    font-size: 20px;
+    font-weight: bold;
+    white-space: nowrap; /* 자동 줄바꿈 금지*/
+}
+.name2{
+    padding : 30px 70px;
+    font-size: 20px;
+    font-weight: bold;
+    white-space: nowrap; /* 자동 줄바꿈 금지*/
+    color:#343a40;
+}
+#img{
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin : 30px;
+}
+main>div>div>a{
+    padding : 0px 40px;
+    color : #6c757d;
+    font-weight: bold;
+    text-align:end;
+}
+main>div>div>pre{
+    font: icon;
+}
+main{
+    max-width: 1220px; /* 컨텐츠의 최대 폭 지정 */
+    margin: 0 auto;
+    height: auto;
+    min-height:100%;
+    /*padding-bottom: 80px;/* footer의 높이 */
+    
+}
+footer{
+    width: 100%;
+    height: 85px;
+    background-color: #343a40;
+    color: white;
+    position : relative;
+    transform: translateY(-100%);
+    margin : 0;
+}
+footer>nav{
+    max-width: 900px;
+    margin: 0 auto; /* 중앙 정렬 */
+    padding: 30px 20px;
+}
+footer>nav>ul{
+    float: right; /*오른쪽으로 이동*/
+    margin-top: 0px;
+}
+footer>nav>label>strong>a{
+    text-decoration: none; /* 밑줄 사라짐 */
+    font-weight: bold;
+    color: #dce0e4;
+}
+footer>nav>ul>li{
+    float: left;
+    list-style: none; /* li 3개의 문자열 앞에 있던 *가 사라짐 */
+    
+}
+footer>nav>ul>li>a{
+    text-decoration: none; /* li 3개의 문자열 밑줄 사라짐 */
+    font-weight: bold;
+    color: #343a40;
+}
+
+#slide1{
+    margin-top: 500px;
+    margin-bottom: 500px;
+    margin-left:200px;
+    margin-right:200px;    
+    display:grid;
+    grid-template-columns: 300px 1fr;
+    height:500px;
+    background-color: transparent;/*#f8f8f8 #f4f5f9*/
+    border-radius:10px;
+    width: 1000px;
+}
+
+#slide2{
+    margin-top: 500px;
+    margin-bottom: 500px;
+    margin-left:200px;
+    margin-right:200px;    
+    display:grid;
+    grid-template-columns: 300px 1fr;
+    height:500px;
+    background-color: transparent;/*#f8f8f8   #f4f5f9*/
+    border-radius:10px;
+    width: 1000px;
+}
+
+.Slidesbackground {
+    margin: 0;
+    padding: 0;
+    padding-left:50px;
+
+}
+.slideshow-image{
+    border-radius:3%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.mySlides {
+    border-radius:3%;
+    width: 500px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.5);
+}
+
+.mySlides2 {
+    border-radius:3%;
+    width: 500px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.5);
+}
+
+.slideshow-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+}
+#slide1txt{
+    margin-top:150px;
+    margin-left:260px;
+    width:450px;
+    height:200px;
+
+}
+
+#slide1txt>pre{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#slide2txt{
+    margin-top:150px;
+    margin-left:260px;
+    width:450px;
+    height:200px;
+
+}
+
+#slide2txt>pre{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 3s;
+}
+
+.fade2 {
+    animation-name: fade;
+    animation-duration: 3s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}

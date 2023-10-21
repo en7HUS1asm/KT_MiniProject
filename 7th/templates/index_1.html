@@ -1,0 +1,178 @@
+{% load static %}
+{% block extrahead %}
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+{% endblock %}
+<!doctype html>
+<html>
+<head>
+    <title>19조</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+</head>
+<body>
+    <header>
+        <nav class="wrap">
+            <img src="https://search.pstatic.net/sunny/?src=https%3A%2F%2Fseeklogo.com%2Fimages%2FO%2Fopen-ai-logo-8B9BFEDC26-seeklogo.com.png&type=sc960_832"width="30" height="30">
+            <ul>
+                <li><a href="" class="active"><strong>Home</strong></a></li>
+                <li><a href="/selfchatgpt/">TextToText</a></li>
+                <li><a href="/signlanguagetochatgpt/">ImageToText</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contents">
+        <div id='txtt'>
+            <h1><ins>Sign Language is Everywhere</ins></h1>
+            <!--<font size="70" color="black" face="Impact"><ins>Sign Language is Everywhere</ins><font>-->
+            <h4>Using this web, you will be able to translate sign language into text.</h4>
+        </div>
+        <div id ="aboutchat">
+            <div id="imgbox"><img src="https://newsimg.hankookilbo.com/cms/articlerelease/2021/04/08/799ed5f3-43fb-4fde-a2bb-3e579b68a33b.jpg" width="400px"></div>
+            <div id="aboutimageright">
+                <p class = "name1" width:500px>&#x1F4AC USE <b>ChatGPT API</b> </p>
+                <ul id="li1">
+                    <li> &#x2714 텍스트박스에 질문을 입력해주세요. </li>
+                    <li> &#x2714 질문 버튼을 눌러주세요. </li>
+                    <li> &#x2714 GPT가 대답해드립니다! </li>
+                </ul>
+                <a href="/chatgpt">Learn more → </a><p></p>
+            </div>
+        </div>
+        <div id ="aboutimage">
+            <div id="imgbox"><img src="https://newsimg.hankookilbo.com/cms/articlerelease/2021/04/08/799ed5f3-43fb-4fde-a2bb-3e579b68a33b.jpg" width="400px"></div>
+            <div id="aboutimageright">
+                <p class = "name2" width:500px>&#x1F64C <strong>수어 </strong>with<b> ChatGPT</b></p>
+                <ul id="li2">
+                    <li> &#x2714 파일 선택을 눌러 파일을 선택해주세요 </li>
+                    <li> &#x2714 파일 추가를 눌러 여러 파일을 선택할 수 있습니다 </li>
+                    <li> &#x2714 질문 버튼을 눌러주세요 </li>
+                    <li> &#x2714 GPT가 이미지를 수어로 번역해드립니다 </li>
+                </ul>
+                <a href="/signlanguagetochatgpt/">Learn more → </a><p></p>
+            </div>
+        </div>
+        <div id ="slide1">
+            <span class="slideshow-container">
+                <div class="Slidesbackground">
+                   <div class="mySlides fade">
+                   <img src="{% static 'img/1.png' %}" class="slideshow-image">
+                   </div>
+                   <div class="mySlides fade">
+                       <img src="{% static 'img/2.png' %}" class="slideshow-image">
+                   </div>
+                   <div class="mySlides fade">
+                       <img src="{% static 'img/3.png' %}" class="slideshow-image">
+                   </div>
+               </div>
+            </span>
+            <div id ="slide1txt">
+                <pre>
+                        &#x1F4D1 <b>사용설명</b>
+
+1. 라이브러리에서 파일을 선택하여 업로드합니다.
+
+2. 여러 개의 파일을 업로드할 경우 '파일추가'를 클릭합니다.
+
+3. 모든 파일을 업로드하였으면 '응답' 버튼을 눌러 
+    ChatGPT와 대화합니다.
+                </pre>
+            </div>
+        </div>
+
+        <div id ="slide2">
+            <span class="slideshow-container">
+                <div class="Slidesbackground">
+                   <div class="mySlides2 fade2">
+                   <img src="{% static 'img/1.png' %}" class="slideshow-image">
+                   </div>
+                   <div class="mySlides2 fade2">
+                       <img src="{% static 'img/2.png' %}" class="slideshow-image">
+                   </div>
+                   <div class="mySlides2 fade2">
+                       <img src="{% static 'img/3.png' %}" class="slideshow-image">
+                   </div>
+               </div>
+            </span>
+            <div id ="slide2txt">
+                <pre>
+                        &#x1F4D1 <b>사용설명</b>
+
+1. 라이브러리에서 파일을 선택하여 업로드합니다.
+
+2. 여러 개의 파일을 업로드할 경우 '파일추가'를 클릭합니다.
+
+3. 모든 파일을 업로드하였으면 '응답' 버튼을 눌러 
+    ChatGPT와 대화합니다.
+                </pre>
+            </div>
+        </div>
+        <script>
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+       
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            slides[slideIndex - 1].style.display = "block";
+    
+            setTimeout(showSlides, 3000); // 2초마다 이미지가 체인지됩니다
+            }
+        </script>
+
+        <script>
+            var slideIndex2 = 0;
+            showSlides2();
+
+            function showSlides2() {
+            var i;
+            var slides2 = document.getElementsByClassName("mySlides2");
+       
+            for (i = 0; i < slides2.length; i++) {
+                slides2[i].style.display = "none";
+            }
+            slideIndex2++;
+            if (slideIndex2 > slides2.length) {
+                slideIndex2 = 1
+            }
+            slides2[slideIndex2 - 1].style.display = "block";
+    
+            setTimeout(showSlides2, 3000); // 2초마다 이미지가 체인지됩니다
+            }
+        </script>
+        <script>
+            let observer = new IntersectionObserver((e)=>{
+                e.forEach((box)=>{
+                    if(box.isIntersecting){
+                        box.target.style.opacity = 1;
+                    }
+                    else{
+                        box.target.style.opacity = 0;
+                    }
+                })
+            })//감시 중인 모든 요소들이 e에 들어가 있음 {} 안에 e에 부여할 애니메이션 지정
+            let div = document.querySelectorAll('div')//모든 div들을 찾아서 div에 넣음
+            observer.observe(div[0])//html 요소가 화면에 등장하는지 감시
+            observer.observe(div[1])
+            observer.observe(div[4])
+        </script>
+    </main>
+
+    <footer>
+        <nav>
+            <label><strong><a href="/">All rights reserved. ©</a></strong></label>
+            <!-- ul>li*3>a -->
+            <ul>
+                <li><a href="/" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>

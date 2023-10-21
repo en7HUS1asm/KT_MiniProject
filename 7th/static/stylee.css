@@ -1,0 +1,30 @@
+
+h1 {
+    font-size:45px;
+    }
+.left {
+    background-color: #E3F4F4;
+    height:1200px;
+    line-height: 30px;
+        }
+.content {
+    display:grid;
+    grid-template-columns: 250px 1fr;
+        }
+textarea {
+    border-radius: 20px 5px;
+    color: black;
+    width: 600px;
+    height: 300px;
+    line-height: 40px;
+    text-align: center;
+    }
+.mid {
+    background-color: brown;
+    text-align:center;
+    line-height: 50px;
+    }
+.ques {
+    font-size:80px;
+    margin:20px;
+        }
