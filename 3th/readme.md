@@ -1,5 +1,3 @@
-![image](https://github.com/en7HUS1asm/KT_MiniProject/assets/130135620/050b4777-6b7c-4693-80fa-126956e58aad)# 3차 미니프로젝트
-
 # Part 1
 
 ## 문제 정의
