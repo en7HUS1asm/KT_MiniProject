@@ -28,6 +28,9 @@
     5) 성능 평가
 
 # Part 2
+![image](https://github.com/en7HUS1asm/KT_MiniProject/assets/130135620/e822301e-26da-4d02-b488-07d30d931637)
+![image](https://github.com/en7HUS1asm/KT_MiniProject/assets/130135620/4c134bad-62f4-4d30-b0e7-abef87314f06)
+
 ## 문제 정의
   - 주제: '시각장애인' 및 '저시력자' 등 시각의 보조가 필요한 사용자들에게 스마트폰 카메라를 통해 화폐 정보를 알려주는 AI모델 개발
   - Data : 화폐정보 데이터
