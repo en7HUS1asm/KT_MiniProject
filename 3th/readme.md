@@ -3,12 +3,12 @@
 ## Part 1
 
 # 문제 정의
-  주제: 차량 공유업체의 차량 파손 여부 분류서비스 개발
-  Data 출처 : KT 자체 제작 (DLLL-E)
-  Data 구분 : Image
-  문제 유형 : Classification
-  중점 사항 : Tensorflow Keras를 통한 CNN 모델 설계
-  성능개선(Data Augmentation, Transfer Learning)
+  - 주제: 차량 공유업체의 차량 파손 여부 분류서비스 개발
+  - Data 출처 : KT 자체 제작 (DLLL-E)
+  - Data 구분 : Image
+  - 문제 유형 : Classification
+  - 중점 사항 : Tensorflow Keras를 통한 CNN 모델 설계
+  - 성능개선(Data Augmentation, Transfer Learning)
 
 # 프로젝트 수행
   1. 데이터 전처리
@@ -32,12 +32,12 @@
 ## Part 2
 
 # 문제 정의
-  주제: '시각장애인' 및 '저시력자' 등 시각의 보조가 필요한 사용자들에게 스마트폰 카메라를 통해 화폐 정보를 알려주는 AI모델 개발
-  Data : 화폐정보 데이터
-  Data 출처 : 셀렉스타
-  Data 구분 : Image, Json
-  문제 유형 : Classification
-  중점 사항 : 화폐 앞 뒤를 구별하여 학습
+  - 주제: '시각장애인' 및 '저시력자' 등 시각의 보조가 필요한 사용자들에게 스마트폰 카메라를 통해 화폐 정보를 알려주는 AI모델 개발
+  - Data : 화폐정보 데이터
+  - Data 출처 : 셀렉스타
+  - Data 구분 : Image, Json
+  - 문제 유형 : Classification
+  - 중점 사항 : 화폐 앞 뒤를 구별하여 학습
 
 # 프로젝트 수행
   1. 데이터 전처리
