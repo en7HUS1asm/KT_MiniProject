@@ -1,6 +1,7 @@
-# 3차 미니프로젝트
+![image](https://github.com/en7HUS1asm/KT_MiniProject/assets/130135620/050b4777-6b7c-4693-80fa-126956e58aad)# 3차 미니프로젝트
 
 # Part 1
+
 ## 문제 정의
   - 주제: 차량 공유업체의 차량 파손 여부 분류서비스 개발
   - Data 출처 : KT 자체 제작 (DLLL-E)
@@ -27,9 +28,11 @@
     4) 예측값 생성
     5) 성능 평가
 
+![image](https://github.com/en7HUS1asm/KT_MiniProject/assets/130135620/615096af-2457-4ff6-9555-d4216150eff3)
+![image](https://github.com/en7HUS1asm/KT_MiniProject/assets/130135620/ee6f8838-03d2-4455-b062-a57c33b90515)
+
+
 # Part 2
-![image](https://github.com/en7HUS1asm/KT_MiniProject/assets/130135620/e822301e-26da-4d02-b488-07d30d931637)
-![image](https://github.com/en7HUS1asm/KT_MiniProject/assets/130135620/4c134bad-62f4-4d30-b0e7-abef87314f06)
 
 ## 문제 정의
   - 주제: '시각장애인' 및 '저시력자' 등 시각의 보조가 필요한 사용자들에게 스마트폰 카메라를 통해 화폐 정보를 알려주는 AI모델 개발
@@ -51,4 +54,9 @@
      2) 모델 학습
      3) 직접찍은 화폐사진을 탐지 과정에서 사용
      4) 성능 비교
+    
+![image](https://github.com/en7HUS1asm/KT_MiniProject/assets/130135620/e822301e-26da-4d02-b488-07d30d931637)
+![image](https://github.com/en7HUS1asm/KT_MiniProject/assets/130135620/4c134bad-62f4-4d30-b0e7-abef87314f06)
+
+
 
