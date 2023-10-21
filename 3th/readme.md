@@ -27,8 +27,11 @@
     5) 성능 평가
 
 NORMAL:
+
 ![image](https://github.com/en7HUS1asm/KT_MiniProject/assets/130135620/71382115-ada4-430c-983b-f5699d1cc41d)
+
 ABNORMAL:
+
 ![image](https://github.com/en7HUS1asm/KT_MiniProject/assets/130135620/ee6f8838-03d2-4455-b062-a57c33b90515)
 
 
@@ -54,10 +57,13 @@ ABNORMAL:
      2) 모델 학습
      3) 직접찍은 화폐사진을 탐지 과정에서 사용
      4) 성능 비교
+        
 IMAGE
+ 
 ![image](https://github.com/en7HUS1asm/KT_MiniProject/assets/130135620/e822301e-26da-4d02-b488-07d30d931637)
-JSON
-![image](https://github.com/en7HUS1asm/KT_MiniProject/assets/130135620/4c134bad-62f4-4d30-b0e7-abef87314f06)
 
+JSON
+
+![image](https://github.com/en7HUS1asm/KT_MiniProject/assets/130135620/4c134bad-62f4-4d30-b0e7-abef87314f06)
 
 
