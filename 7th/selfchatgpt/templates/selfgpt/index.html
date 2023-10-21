@@ -1,0 +1,38 @@
+{% load static %}
+{% block extrahead %}
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+{% endblock %}
+<head>
+    <title>GPT에게 질문</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <main class="content">
+        <section class="left">
+            <div id="logo">
+                <h1>MINI 7</h1>
+            </div>
+            <ol>
+                <li><a href="/chatgpt/">ChatGPT API 사용</a></li>
+                <li><a href="/selfchatgpt/">ChatGPT API 사용(스스로)</a></li>
+                <li><a href="/selfsignlanguagetochatgpt/">수어-ChatGPT 연동</a></li>
+                <li><a href="/signlanguagetochatgpt/">수어-ChatGPT 연동(스스로)</a></li>
+            </ol>
+            <div><button id="leri" type="button" >click</button></div>
+        </section>
+        <section class="mid">
+            <form action="chat" method="post" entype="application/x-www-form-urlencoded">
+                <div id="ques">
+                    <label>당신의 CHAT GPT에게 질문을 입력하세요</label>
+                </div>
+                <div>
+                    <img src="https://search.pstatic.net/sunny/?src=https%3A%2F%2Fseeklogo.com%2Fimages%2FO%2Fopen-ai-logo-8B9BFEDC26-seeklogo.com.png&type=sc960_832"width="150" height="150", display:inline>
+                </div>
+                <div>
+                    <textarea id="quebox" name="question"></textarea>
+                </div>
+                <div><button id="text-button" type="submit" >질문</button></div>
+            </form>
+        <section class="mid">
+    </main>
+</body>
